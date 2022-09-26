@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    background: -webkit-linear-gradient(to right, rgba(255, 108, 108, 0.5), rgba(68, 72, 64, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(255, 108, 108, 0.5), rgba(68, 72, 64, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-image: url(https://wallpapercave.com/wp/wp7414755.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div.principal {
+    display: block;
+    justify-content: center;
+}
+
+div.caixas {
+    margin-top: 5vw;
+    width: 50vw;
+    height: 38VH;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    box-shadow: 6px 9px 5px rgb(0 0 0 / 20%);
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    padding-top: 0px;
+}
+
+.caixas:hover {
+    transform: translateY(-25px);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 8px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: -91px;
+    color: rgba(0, 143, 255, 0.65);
+}
+
+.ip {
+    display: contents;
+    color: rgba(0, 143, 255, 0.65);
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 12px;
+    transition: 1s;
+}
+
+.ip:hover {
+    color: #fb3c3c;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 121px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+    padding-top: 36px;
+    transition: 1s;
+    margin-bottom: -85px;
+}
+
+img:hover {
+    filter: drop-shadow(6px 9px 5px rgba(0,0,0,0.2));
+    transform: translateY(-20px);
+}
+
+.btn {
+    margin-top: 97px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(69, 64, 72);
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgba(0, 143, 255, 0.65);
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 9px;
+    box-shadow: 5px 5px 50px rgb(0 0 0 / 15%);
+    transition: 1s;
+}
+
+.botao-home {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(69, 64, 72);
+    width: 150px;
+    height: 50px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgba(0, 143, 255, 0.65);
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 9px;
+    box-shadow: 5px 5px 50px rgb(0 0 0 / 15%);
+    transition: 1s;
+}
+
+
+button:hover, .botao-links:hover {
+    color: #fb3c3c;
+}

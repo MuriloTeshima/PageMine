@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+/*@media screen and (max-width: 1080px) {
+    .pnl {
+      visibility: hidden;
+    }
+  } 
+*/
+body {
+    background: -webkit-linear-gradient(to right, rgba(255, 108, 108, 0.5), rgba(68, 72, 64, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(255, 108, 108, 0.5), rgba(68, 72, 64, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-image: url(https://wallpapercave.com/wp/wp5961273.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+
+
+.pnl {
+    width: 40vw;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    height: 75vh;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.150);
+    transition: 1s;
+}
+
+.pnl:hover {
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.400);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+.pnl #pag {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 10px;
+    text-decoration: none;
+    color: rgb(69, 64, 72);
+}
+
+.pnl a:hover {
+    color: rgb(117, 117, 117);
+}
+
+.pnl #img {
+    width: 350px;
+    display: block;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+}
+
+.botao-links  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(69, 64, 72);
+    width: 300px;
+    height: 70px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fb3c3c;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 9px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.150);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1.sm {
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 700px;
+}
